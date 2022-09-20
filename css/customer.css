@@ -1,0 +1,63 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(90, 88, 89);
+}
+
+/* navbar css starts here  */
+.bg-light{
+    background-color: #4a148c!important;
+}
+
+.navbar-brand{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.5rem;
+    color: #ffbb38!important;
+}
+
+.nav-link{
+    color: #ffffff!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+    background-color: #ffbb38;
+}
+/* navbar css ends here  */
+
+.my-info{
+    padding: 3rem 10rem;
+    color: rgb(233, 233, 236);
+}
+
+.btn-info {
+    padding: 10px 15px;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    background-color: #ffbb38;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px rgb(207, 49, 49);
+  }
+  
+  .btn-info:hover {
+      background-color: #4a148c
+    }
+  
+  .btn-info:active {
+    background-color: #f30909;
+    box-shadow: 0 5px rgb(182, 125, 125);
+    transform: translateY(4px); 
+  }
+  #table_topic
+{
+    background-color: #e0e00b;
+}
+.table-danger, .table-danger>td, .table-danger>th {
+    background-color: #4a148c;
+}
+.table-light, .table-info {
+    color: #000000;  
+}
